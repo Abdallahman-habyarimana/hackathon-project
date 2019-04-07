@@ -3,7 +3,6 @@ import Link from '@material-ui/core/Link';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 
-
 const styles = () => ({
     root: {
         backgroundColor:'black',
@@ -20,46 +19,24 @@ class Footer extends Component {
                 <div className="container text-center text-md-left">
                     <div className="row text-center text-md-left mt-3 pb-3">
                         <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                            <h6 className="text-uppercase mb-4 font-weight-bold">PARCCS PROJECTS</h6>
-                            <p>A GBC team developing solutions to facilitate daily activies </p>
+                            <h6 className="text-uppercase mb-4 font-weight-bold">PARCC PROJECTS</h6>
+                            <p>A GBC team developing solutions to facilitate daily activities </p>
                         </div>
                         <hr className="w-100 clearfix d-md-none" />
-                        <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                            <h6 className="text-uppercase mb-4 font-weight-bold">Products</h6>
-                            <p>
-                                <Link to="/">ChatRoom Application</Link>
-                            </p>
-                            <p>
-                                <Link to="/">CARP Online retails</Link>
-                            </p>
-                            <p>
-                                <Link to="/">Recycle Rewards website</Link>
-                            </p>
-                            <p>
-                                <Link to="/">Bootstrap Angular</Link>
-                            </p>
+                        <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h6 className="text-uppercase mb-4 font-weight-bold">Team</h6>
+                            <p> Abdallahman Habyarimana - 101087205 </p>
+                            <p> Christopher Haddock - 100667999 </p>
+                            <p> Minji Kim - 101082300</p>
+                            <p> Peter Bugden - 101110728 </p>
+                            <p>Renata Moura - 101096098  </p>
                         </div>
-                        <hr className="w-100 clearfix d-md-none" />
-                        <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                            <h6 className="text-uppercase mb-4 font-weight-bold">Stay Connected</h6>
-                            <p>
-                                <Link to="/">Your Account</Link>
-                            </p>
-                            <p>
-                                <Link to="/">Become an Affiliate</Link>
-                            </p>
-                            <p>
-                                <Link to="/">Shipping Rates</Link>
-                            </p>
-                            <p>
-                                <Link to="/" >Help</Link>
-                            </p>
-                        </div>
+                   
                         <hr className="w-100 clearfix d-md-none" />
                         <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                             <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
                             <p>
-                                140 Kendal Street, Totonto Canada</p>
+                                140 Kendal Street, Toronto Canada</p>
                             <p>
                                 info@gmail.com</p>
                             <p>
