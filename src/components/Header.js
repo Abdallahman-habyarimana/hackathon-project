@@ -59,7 +59,7 @@ class Header extends Component {
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a class="active" href="#about">About</a></li>
+                <li><a className="active" href="/about">About</a></li>
             </ul>
                <div className={classes.content}>
                    <h2> Where are you drinking on the last day of class? </h2>
