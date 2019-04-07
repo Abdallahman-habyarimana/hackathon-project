@@ -39,7 +39,7 @@ export class MapContainer extends Component {
         }}
       >
         <Marker
-          name={"whre chris is"}
+          name={"whgit re chris is"}
           onClick={this.onMarkerClick}
           title={"The marker`s title will appear as a tooltip."}
           position={{ lat: 43.676041, lng: -79.403844 }}
