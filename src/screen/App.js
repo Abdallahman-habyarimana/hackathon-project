@@ -3,9 +3,8 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 //import Home from '../components/Home';
 import Header from '../components/Header';
 //import { isAbsolute } from 'path';
-import Aboutus from '../components/Aboutus';
-import Footer from '../components/Footer';
-//import Footer from '../components/Footer';
+import Aboutus from '../components/Form';
+
 import Maps from '../components/MapContainer';
 
 class App extends Component {
