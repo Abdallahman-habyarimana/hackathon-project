@@ -6,6 +6,7 @@ import Header from '../components/Header';
 import Aboutus from '../components/Form';
 
 import Maps from '../components/MapContainer';
+import '../styles/styles.css'
 
 class App extends Component {
   render() {
@@ -14,7 +15,7 @@ class App extends Component {
       <BrowserRouter>
       <Header />
       <div><Aboutus/></div>
-      <div style={{float:'left'}}><Maps/></div>
+      <div className="mapContainer"/*style={{float:'left'}}*/><Maps/></div>
       {/* <Footer/> */}
       
        <Switch>
