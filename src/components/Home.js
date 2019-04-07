@@ -39,7 +39,7 @@ class Home extends Component {
         }
     }
     handleClickOpen = () => {
-        this.setState({ open: true });n
+        this.setState({ open: true });
     };
         
     handleClose = () => {
