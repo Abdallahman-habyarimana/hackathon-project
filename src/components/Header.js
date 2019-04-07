@@ -62,10 +62,10 @@ class Header extends Component {
                 <li><a class="active" href="#about">About</a></li>
             </ul>
                <div className={classes.content}>
-                   <h2> Fun Direction </h2>
-                   <span> Login to join your fun? </span>
+                   <h2> Where are you drinking on the last day of class? </h2>
+                   <span> Lets get litty together </span>
                    <br/><br/>
-                   <Button className={classes.button} variant="outlined" onClick={this.handleClickOpen}> Login </Button>
+                   
                 </div>   
             </CardMedia>
             <Dialog
