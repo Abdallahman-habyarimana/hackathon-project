@@ -6,25 +6,26 @@ import Header from '../components/Header';
 import Aboutus from '../components/Aboutus';
 import Footer from '../components/Footer';
 //import Footer from '../components/Footer';
+import Maps from '../components/MapContainer';
 
 class App extends Component {
   render() {
     return (
+      <div>
       <BrowserRouter>
       <Header />
-
-      <Aboutus />
-
-      <Footer />
+      <div><Aboutus/></div>
+      <div style={{float:'left'}}><Maps/></div>
+      {/* <Footer/> */}
       
        <Switch>
          <Route></Route>
          <Route></Route>
          <Route></Route>
        </Switch>
-
+      
       </BrowserRouter>
-  
+      </div>
     );
   }
 }

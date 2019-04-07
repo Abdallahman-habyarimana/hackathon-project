@@ -15,7 +15,6 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogTitle from '@material-ui/core/DialogTitle';
 
 
-
 const styles = {
   root: {
     flexGrow: 1,
@@ -40,7 +39,7 @@ class Home extends Component {
         }
     }
     handleClickOpen = () => {
-        this.setState({ open: true });
+        this.setState({ open: true });n
     };
         
     handleClose = () => {
@@ -87,6 +86,7 @@ class Home extends Component {
             </Button>
           </DialogActions>
         </Dialog>
+        
     </div>
   );
 }
@@ -97,3 +97,4 @@ Home.propTypes = {
 };
 
 export default withStyles(styles)(Home);
+
