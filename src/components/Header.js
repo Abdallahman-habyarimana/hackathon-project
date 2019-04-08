@@ -10,7 +10,7 @@ import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogTitle from '@material-ui/core/DialogTitle';
 //import Home from './Home';
-const banner1 = require('../images/banner1.JPG')
+const banner1 = require('../images/banner2.jpg')
 
 console.log(banner1)
 const styles = (theme) => ({
@@ -18,22 +18,23 @@ const styles = (theme) => ({
       maxWidth: '100%',
     },
     media: {
-      height: 400,
+      height: 600,
     },
     content: {
         height: 20,
         color:'white',
-        paddingTop: theme.spacing.unit * 15,
+        paddingTop: theme.spacing.unit * 7,
         paddingBottom: theme.spacing.unit * 20,
-        paddingLeft: theme.spacing.unit * 70,
-        paddingRight: theme.spacing.unit * 56,
+        paddingLeft: theme.spacing.unit * 40,
+        paddingRight: theme.spacing.unit * 5,
+        align: 'right'
     },
     button: {
         height:40,
         width: 90,
         color:'white',
-        paddingLeft: theme.spacing.unit * 15,
-        paddingRight: theme.spacing.unit * 15,
+        paddingLeft: theme.spacing.unit * 70,
+        paddingRight: theme.spacing.unit * 5,
         align:'center'
     }
 
