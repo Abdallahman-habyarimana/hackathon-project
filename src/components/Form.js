@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import Input from "@material-ui/core/Input";
+import Button from "@material-ui/core/Button"
 
 const styles = theme => ({
   container: {
@@ -94,6 +95,7 @@ class Content extends Component {
             "aria-label": "Description"
           }}
         />
+        <Button variant='contained'>Submit</Button>
       </div>
     );
   }

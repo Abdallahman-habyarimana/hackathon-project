@@ -31,7 +31,7 @@ export class MapContainer extends Component {
     return (
       <Map
         google={this.props.google}
-        zoom={14}
+        zoom={12}
         style={mapStyles}
         initialCenter={{
           lat: 43.6761256,
@@ -39,16 +39,28 @@ export class MapContainer extends Component {
         }}
       >
         <Marker
-          name={"whgit re chris is"}
+          name={"The Pour House"}
           onClick={this.onMarkerClick}
-          title={"The marker`s title will appear as a tooltip."}
+          title={"Chris and Renata will be drinking here"}
           position={{ lat: 43.676041, lng: -79.403844 }}
         />
         <Marker
-          name={"da skool"}
+          name={"School"}
           onClick={this.onMarkerClick}
-          title={"The marker`s title will appear as a tooltip."}
+          title={"George Brown College"}
           position={{ lat: 43.676326, lng: -79.41051 }}
+        />
+        <Marker
+          name={"The Green Room"}
+          onClick={this.onMarkerClick}
+          title={"Peter will be drinking here"}
+          position={{ lat: 43.656823, lng: -79.4089527 }}
+        />
+        <Marker
+          name={"Insomnia"}
+          onClick={this.onMarkerClick}
+          title={"Chloe will be drinking here"}
+          position={{ lat: 43.665107, lng: -79.4130197 }}
         />
         <InfoWindow
           marker={this.state.activeMarker}
@@ -57,6 +69,7 @@ export class MapContainer extends Component {
         >
           <div>
             <h4>{this.state.selectedPlace.name}</h4>
+            <h6>{this.state.selectedPlace.title}</h6>
           </div>
         </InfoWindow>
       </Map>
