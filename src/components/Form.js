@@ -7,8 +7,9 @@ const styles = theme => ({
   container: {
     display: "flex",
     flexWrap: "wrap",
-    marginLeft: theme.spacing.unit * 5,
-    
+    marginLeft: theme.spacing.unit * 0,
+    marginTop: theme.spacing.unit * 5,
+    marginBottom: theme.spacing.unit * 5,
   },
   input: {
     margin: theme.spacing.unit
